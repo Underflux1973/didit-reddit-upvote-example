@@ -1,4 +1,10 @@
-This is verging on torture
+REFLECTIONS:
+
+I will try to remain objective about this exercise even though today has felt very deflating. The reality is that I have never been able to deploy successfully onto Vercel on previous assignments so I have always felt that I don't know how to connect the dots and am missing some vital bit of information, which is fairly frustrating.
+
+I have provided some screenshots of the logs and deployment errors in the public files.
+
+1. After review
 
 ## Upvote
 
