@@ -4,7 +4,13 @@ I will try to remain objective about this exercise even though today has felt ve
 
 I have provided some screenshots of the logs and deployment errors in the public files.
 
-1. After review
+1. The main error occuring is a ECONNREFUSED which indicates that my database isn't recognising the connections made in the code so the first thing I did was to check the environment variables. I double checked the Database URL, the password as well as the GitHub Auth ID and Secret. I reset them all and started from scratch but to no avail.
+
+2. I then realised after doing some research that I needed to add the API keys to the Vercel deloyment as the Environment variables in my .env file are local variables so Vercel needed server environment variables - the ANON KEY and SECRET. I tried adding these into the Vercel environment variable section but it didn't allow due to incorrect format.
+
+3. Additionally I really wasn't sure about the need to install the Supabase librairies or further code to import Supabase in the config file. I essentially ran out of time as per usual.
+
+4. I clearly don't understand this on a fundamental level so its difficult for me to see the positives about this currently, especially when you see many other colleagues finishing and completing the task at hand.
 
 ## Upvote
 
